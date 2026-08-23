@@ -510,3 +510,7 @@ footer.site-foot .wrap {
   .band .cta-row { justify-content: center; }
   .doc { padding-top: 42px; }
 }
+
+/* 2.0 refresh: the privacy line under the hero lede */
+.hero-privacy { margin-top: 4px; }
+.hero-privacy strong { color: var(--blue-bright); font-weight: 600; }
