@@ -514,3 +514,6 @@ footer.site-foot .wrap {
 /* 2.0 refresh: the privacy line under the hero lede */
 .hero-privacy { margin-top: 4px; }
 .hero-privacy strong { color: var(--blue-bright); font-weight: 600; }
+
+/* Keep the AI Access heading visible below the sticky navigation. */
+#ai-access { scroll-margin-top: 100px; }

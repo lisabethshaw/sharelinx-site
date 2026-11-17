@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=20261116">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 
     <div class="doc-mark reveal d1"><img src="assets/sharelinx-icon.png" alt="" aria-hidden="true"></div>
     <h1 class="page-title reveal d1">How to Use ShareLinx</h1>
-    <p class="page-intro reveal d2">A friendly walkthrough to help you start saving, organizing, and revisiting your links. Most steps take just a few seconds, and you can begin without an account.</p>
+    <p class="page-intro reveal d2">A friendly walkthrough to help you start saving, organizing, and revisiting your links. Most steps take just a few seconds, and you can begin without a ShareLinx account.</p>
 
     <h2>Installing the Beta</h2>
     <p>ShareLinx is currently a free public beta delivered through Apple's TestFlight. To install it:</p>
@@ -150,11 +150,21 @@
       <li>This feature is optional, so you can use ShareLinx fully without it.</li>
     </ul>
 
-    <h2>Using ShareLinx on iPad and Apple Vision Pro–Compatible iPad Mode</h2>
+    <h2 id="ai-access">Optional AI Access</h2>
+    <p>External AI access is separate from ShareLinx's on-device summaries and is off by default. In <strong>Settings → AI Access</strong>:</p>
+    <ol class="steps">
+      <li>Choose collections or tags. A link is approved if it matches any selected collection or tag. No selections means no access, and archived links are excluded.</li>
+      <li>Open <strong>Preview approved links</strong> to check the selection. Personal notes are excluded unless you enable <strong>Include personal notes</strong>.</li>
+      <li>Review the receiving AI provider's privacy and retention settings, then enable <strong>Allow AI access</strong> if you want to connect it.</li>
+      <li>On Mac, choose an export folder and open <strong>Connect an AI App</strong> for setup instructions and a connection test. Keep ShareLinx running to update the export.</li>
+    </ol>
+    <p>The connection is read-only and permissions apply on the device where you configure them; they do not sync. A connected AI app may send approved content to its cloud service or retain it in conversation history. <strong>Disconnect AI Access</strong> stops future reads through this interface, but cannot erase copies the receiving app already holds. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+    <h2>Using ShareLinx on iPad and Apple Vision Pro</h2>
     <p>ShareLinx adapts to bigger screens:</p>
     <ul>
       <li>On <strong>iPad</strong>, you get a more spacious layout for browsing and organizing your Collections.</li>
-      <li>On <strong>Apple Vision Pro</strong>, ShareLinx runs in its iPad-compatible mode, giving you a comfortable view of your saved links.</li>
+      <li>On <strong>Apple Vision Pro</strong>, ShareLinx provides a native visionOS window for browsing and organizing your saved links.</li>
     </ul>
     <p>Your saved links and Collections stay the same across devices, especially if iCloud sync is enabled.</p>
 
